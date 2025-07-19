@@ -27,6 +27,7 @@ async function main() {
     await mongoose.connect(dbUrl);
 }
 
+
 main()
     .then( () => {
         console.log("connected to DB");
@@ -85,10 +86,13 @@ app.use( (req, res, next) => {
     next();
 });
 
-
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
+
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
 
 // app.get("/", (req, res) => {
 //     res.send("Hi, i am root");
