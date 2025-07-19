@@ -1,29 +1,44 @@
-# 🌍 Wanderlust
+# 🌍 Wanderlust - Campground Listing Web App
 
-**Wanderlust** is a full-stack web application inspired by Airbnb. It allows users to explore, review, and book rental listings such as rooms, apartments, and villas. Built using the **MERN stack**, this platform integrates powerful tools like **Mapbox**, **Cloudinary**, and **Passport.js** for enhanced location mapping, media storage, and authentication.
+**Live Demo:** [wanderlust-0v6c.onrender.com](https://wanderlust-0v6c.onrender.com)
+
+Wanderlust is a full-stack web application that allows users to explore, add, review, and manage campgrounds from around the world. Inspired by travel platforms like Yelp and Airbnb, this project combines modern web technologies with intuitive UI to deliver a seamless camping discovery experience.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Search listings with filters
-- 🏡 Browse and view apartments, rooms, and villas
-- 🔐 User authentication with Passport.js
-- 🗺️ Interactive maps using Mapbox API
-- 📸 Upload images via Cloudinary
-- ✍️ Leave reviews and ratings
-- 💻 Admin/host functionality to create listings
-- 📦 Deployed on Render
+- 🗺️ View and explore a wide range of campgrounds
+- ➕ Add new campgrounds with images, location, and description
+- 📝 Leave reviews and ratings on campgrounds
+- 🔐 User authentication and authorization
+- 🧭 Integrated map view using Mapbox
+- 📸 Image upload via Cloudinary
+- 🛡️ Server-side validation and error handling
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** Passport.js
-- **Media Storage:** Cloudinary
-- **Maps Integration:** Mapbox API
-- **Deployment:** Render
-- **Version Control:** Git
+**Frontend:**
+- HTML, CSS, EJS
+- Bootstrap (for styling)
+
+**Backend:**
+- Node.js
+- Express.js
+
+**Database:**
+- MongoDB (with Mongoose ODM)
+
+**Authentication:**
+- Passport.js (Local Strategy)
+
+**Other Tools:**
+- Mapbox (for interactive maps)
+- Cloudinary (for image uploads)
+- Multer (for file handling)
+- Express-Validator (for form validation)
+- Method-Override
+
+---
