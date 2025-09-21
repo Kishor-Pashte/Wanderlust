@@ -152,5 +152,13 @@
     "receipt": "receipt_687b1fad9717b9901df7cf8a",
     "status": "paid",
     "payment_id": "pay_RK81mJpX9LGkCS"
+  },
+  {
+    "order_id": "order_RKF1YSKyxHg5bS",
+    "amount": 450000,
+    "currency": "INR",
+    "receipt": "receipt_687b474b8f989007abc39888",
+    "status": "paid",
+    "payment_id": "pay_RKF1m6aKE2ChzT"
   }
 ]
